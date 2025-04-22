@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Causality Map</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="canvas-container">
+    <svg id="line-layer"></svg>
+    <div id="map-canvas"></div>
+  </div>
+
+  <div id="tooltip" class="hidden"></div>
+
+  <div id="sidebar" class="hidden">
+    <div class="sidebar-header">
+      <span id="sidebar-close">×</span>
+      <h2 id="sidebar-title"></h2>
+    </div>
+    <div id="sidebar-body"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
